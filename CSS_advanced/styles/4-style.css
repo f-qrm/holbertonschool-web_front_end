@@ -1,7 +1,8 @@
 html {
   scroll-behavior: smooth;
 }
-body { color: var(--font-family-base);}
+body { color: #161616;
+  font-family: var(--font-family-base);}
 a { color: #161616;}
 .visually-hidden { display: none;}
 .card-category { color: var(--color-primary);}
