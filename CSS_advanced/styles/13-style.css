@@ -1,6 +1,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 62.5%;
 }
 body { color: #161616;
   font-family: var(--font-family-base);
@@ -8,10 +9,19 @@ body { color: #161616;
   font-weight: var(--font-weight-regular);
   line-height: var(--line-height-base);
 }
-a { color: #161616; text-decoration: none;}
-.visually-hidden { display: none;}
-.card-category { color: var(--color-primary);}
-.section-header { text-align: var(--section-header-align);}
+a { 
+    color: #161616; 
+    text-decoration: none;
+}
+.visually-hidden { 
+    display: none;
+}
+.card-category { 
+    color: var(--color-primary);
+}
+.section-header { 
+    text-align: var(--section-header-align);
+}
 .section-title { 
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -48,25 +58,18 @@ a { color: #161616; text-decoration: none;}
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
 }
-h1 { font-family: var(--font-family-title);
+h1, h2, h3, h4, h5, h6 { 
+    font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
-h2 { font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
+a:link a:visited { 
+    color: var(--text-color);
+    text-decoration: none;
+    font-style: italic;
 }
-h3 { font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
+a:hover { 
+    text-decoration: underline;
 }
-h4 { font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
+a:active { 
+    background-color: var(--color-light-grey);
 }
-h5 { font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
-}
-h6 { font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
-}
-html { font-size: 62.5%;}
-a[href]:visited { font-style: italic;}
-a[href]:hover { text-decoration: underline;}
-a[href]:active { background-color: var(--color-light-grey);}
