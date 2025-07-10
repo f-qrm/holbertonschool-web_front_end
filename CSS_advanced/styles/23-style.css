@@ -17,10 +17,10 @@ a:link, a:visited {
     text-decoration: none;
     font-style: italic;
 }
-.social-link svg {
+.social-link {
     display: block;
 }
-.social-link svg {
+.social-link > svg {
     fill: var(--text-color);
 }
 a:hover {
