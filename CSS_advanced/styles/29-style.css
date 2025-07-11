@@ -160,7 +160,7 @@ a:active {
     left: 0;
     background-color: var(--color-white);
     width: 0;
-    height: 20vh;
+    height: 20%;
     transition: width 0.3s ease, background-color 0.3s ease;
     z-index: -1;
 }
