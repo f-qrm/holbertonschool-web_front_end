@@ -157,7 +157,7 @@ a:active {
   left: 0;
   background-color: var(--color-white);
   width: 0;
-  height: 20vh;
+  height: 0.2rem;
   transition: width 0.3s ease;
   z-index: -1;
 }
