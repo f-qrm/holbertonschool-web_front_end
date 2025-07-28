@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """
-This module provides a function to compute the floor of a floating point number.
+This module provides a function to compute the floor of a floating point
+number.
 
 It demonstrates the use of type annotations and includes proper documentation
 for both the module and the function according to project requirements.
 """
 import math
+
 
 def floor(n: float) -> int:
     """
